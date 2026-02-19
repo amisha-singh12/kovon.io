@@ -3,7 +3,7 @@
 import React from 'react';
 import { Box, Container, Grid , Typography } from '@mui/material';
 import FeatureCard from './FeatureCard';
-import { FEATURES } from '@/constants/content';
+import { FEATURES}  from '@/constants/content';
 import PrimaryButton from '@/components/common/PrimaryButton';
 import DescriptionIcon from '@mui/icons-material/Description';
 import HeadsetMicIcon from '@mui/icons-material/HeadsetMic';
@@ -55,8 +55,7 @@ const FeaturesSection: React.FC = () => {
                 description={feature.description}
                 salary={feature.salary}
                 posted={feature.posted}
-                type={feature.type}
-              />
+                type={feature.type} id={0}              />
             </Grid>
           ))}
         </Grid>

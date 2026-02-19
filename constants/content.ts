@@ -1,5 +1,6 @@
 import { NavLink, Feature, Step, FooterSection, SocialLink } from '@/types';
 
+
 export const NAV_LINKS: NavLink[] = [
   { label: 'Home', href: '/' },
   { label: 'Browse Jobs', href: '/jobs' },

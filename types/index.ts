@@ -18,7 +18,7 @@ export interface Step {
   id: number;
   stepNumber: string;
   title: string;
-  description: string;
+  // description: string;
 }
 
 export interface FooterLink {

@@ -15,6 +15,8 @@ interface FeatureCardProps {
 }
 
 const FeatureCard: React.FC<FeatureCardProps> = ({
+  
+  id,
   title,
   company,
   location,
