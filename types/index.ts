@@ -5,9 +5,13 @@ export interface NavLink {
 
 export interface Feature {
   id: number;
-  icon: string;
   title: string;
+  company: string;      // ✅ add this
+  location: string;
+  posted: string;       // ✅ add this
+  salary: string;
   description: string;
+  type?: string;  
 }
 
 export interface Step {

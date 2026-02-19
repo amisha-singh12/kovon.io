@@ -4,6 +4,7 @@ import React from 'react';
 import { Card, CardContent, Box, Typography, Chip } from '@mui/material';
 
 interface FeatureCardProps {
+  id: number;
   title: string;
   company: string;
   location: string;
