@@ -1,7 +1,8 @@
 'use client';
 
 import React from 'react';
-import { Box, Container, Grid , Typography } from '@mui/material';
+import { Box, Container, Typography } from '@mui/material';
+import Grid from '@mui/material/Grid';
 import FeatureCard from './FeatureCard';
 import { FEATURES}  from '@/constants/content';
 import PrimaryButton from '@/components/common/PrimaryButton';
