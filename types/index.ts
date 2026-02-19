@@ -6,7 +6,7 @@ export interface NavLink {
 export interface Feature {
   id: number;
   title: string;
-  company: string;      // ✅ add this
+  // company: string;      // ✅ add this
   location: string;
   posted: string;       // ✅ add this
   salary: string;

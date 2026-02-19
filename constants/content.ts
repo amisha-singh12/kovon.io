@@ -25,7 +25,7 @@ export const FEATURES: Feature[] = [
   {
     id: 1,
     title: 'Lift Installer at Israel',
-    company: 'ALFA DIVINE CONSULTANT LLP',
+    // company: 'ALFA DIVINE CONSULTANT LLP',
     location: 'Israel',
     salary: '₹2.2L - ₹2.7L / Month',
     posted: '4 weeks ago',
@@ -36,7 +36,7 @@ export const FEATURES: Feature[] = [
   {
     id: 2,
     title: 'Mechanical Project Leader',
-    company: 'M/S. SUPER ASIA MANPOWER SERVICES',
+    // company: 'M/S. SUPER ASIA MANPOWER SERVICES',
     location: 'Saudi Arabia',
     salary: '₹2L - ₹2.5L / Month',
     posted: '3 weeks ago',
@@ -47,7 +47,7 @@ export const FEATURES: Feature[] = [
   {
     id: 3,
     title: 'Electrical Technician',
-    company: 'GLOBAL TECH SOLUTIONS',
+    // company: 'GLOBAL TECH SOLUTIONS',
     location: 'Qatar',
     salary: '₹1.8L - ₹2.3L / Month',
     posted: '1 week ago',
@@ -58,7 +58,7 @@ export const FEATURES: Feature[] = [
   {
     id: 4,
     title: 'Construction Supervisor',
-    company: 'INTERNATIONAL BUILD CORP',
+    // company: 'INTERNATIONAL BUILD CORP',
     location: 'Dubai, UAE',
     salary: '₹2.5L - ₹3L / Month',
     posted: '5 days ago',
@@ -69,7 +69,7 @@ export const FEATURES: Feature[] = [
   {
   id: 5,
   title: 'HVAC Technician',
-  company: 'ARABIAN CLIMATE ENGINEERS',
+  // company: 'ARABIAN CLIMATE ENGINEERS',
   location: 'Kuwait',
   salary: '₹1.9L - ₹2.4L / Month',
   posted: '2 days ago',
@@ -80,7 +80,7 @@ export const FEATURES: Feature[] = [
 {
   id: 6,
   title: 'Pipe Fitter',
-  company: 'GULF INDUSTRIAL SERVICES',
+  // company: 'GULF INDUSTRIAL SERVICES',
   location: 'Oman',
   salary: '₹1.7L - ₹2.2L / Month',
   posted: '6 days ago',
@@ -91,7 +91,7 @@ export const FEATURES: Feature[] = [
 {
   id: 7,
   title: 'Civil Site Engineer',
-  company: 'DESERT INFRASTRUCTURE LLC',
+  // company: 'DESERT INFRASTRUCTURE LLC',
   location: 'Abu Dhabi, UAE',
   salary: '₹2.8L - ₹3.5L / Month',
   posted: '1 week ago',
@@ -102,7 +102,7 @@ export const FEATURES: Feature[] = [
 {
   id: 8,
   title: 'Welder (MIG/TIG)',
-  company: 'SAUDI METAL WORKS',
+  // company: 'SAUDI METAL WORKS',
   location: 'Riyadh, Saudi Arabia',
   salary: '₹1.6L - ₹2L / Month',
   posted: '3 days ago',
