@@ -50,12 +50,12 @@ const FeaturesSection: React.FC = () => {
               <FeatureCard
                 // icon={feature.icon}
                 title={feature.title}
-                // company={feature.company}
+                company={feature.company}
                 location={feature.location}
                 description={feature.description}
                 salary={feature.salary}
                 posted={feature.posted}
-                type={feature.type} id={0}              />
+                type={feature.type} id={feature.id}              />
             </Grid>
           ))}
         </Grid>

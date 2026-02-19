@@ -6,7 +6,7 @@ import { Card, CardContent, Box, Typography, Chip } from '@mui/material';
 interface FeatureCardProps {
   id: number;
   title: string;
-  // company: string;
+  company: string;
   location: string;
   posted: string;
   salary: string;
@@ -18,7 +18,7 @@ const FeatureCard: React.FC<FeatureCardProps> = ({
   
   id,
   title,
-  // company,
+  company,
   location,
   posted,
   salary,
@@ -66,7 +66,7 @@ const FeatureCard: React.FC<FeatureCardProps> = ({
                 fontSize: '1.25rem',
               }}
             >
-              {/* {company.charAt(0)} */}
+              {company.charAt(0)}
             </Box>
 
             {/* Title + Meta */}
@@ -86,7 +86,7 @@ const FeatureCard: React.FC<FeatureCardProps> = ({
                   mt: 0.5,
                 }}
               >
-                {/* {company} */}
+                {company}
               </Typography>
 
               <Typography
