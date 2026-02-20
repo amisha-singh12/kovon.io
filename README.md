@@ -18,30 +18,6 @@ This project demonstrates structured component architecture, responsiveness, the
 
 ---
 
-## 📁 Folder Structure
-app/
-├── layout.tsx
-├── page.tsx
-
-components/
-├── header/
-│ └── Header.tsx
-├── hero/
-│ └── HeroSection.tsx
-├── features/
-│ ├── FeatureCard.tsx
-│ └── FeaturesSection.tsx
-├── how-it-works/
-│ └── HowItWorks.tsx
-└── footer/
-└── Footer.tsx
-
-constants/
-└── content.ts
-
-types/
-└── index.ts
-
 ## ✨ Features
 
 - Dark Mode Toggle
