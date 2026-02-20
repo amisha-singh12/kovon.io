@@ -1,8 +1,7 @@
 'use client';
 
 import React from 'react';
-import { Box, Container, Typography } from '@mui/material';
-import Grid from '@mui/material/Grid';
+import { Box, Container, Grid, Typography } from '@mui/material';
 import FeatureCard from './FeatureCard';
 import { FEATURES}  from '@/constants/content';
 import PrimaryButton from '@/components/common/PrimaryButton';
@@ -21,16 +20,16 @@ const FeaturesSection: React.FC = () => {
       <Container maxWidth="xl">
         <Box sx={{ textAlign: 'center', marginBottom: '4rem' }}>
           <Typography
-      variant="h4"
-      sx={{
-        fontWeight: 700,
-        mb: 2,
-        fontSize: { xs: '2rem', md: '2.5rem', lg: '3.5rem' },
-        color: 'text.primary',
-      }}
-    >
-      Featured Jobs
-    </Typography>
+             variant="h4"
+             sx={{
+             fontWeight: 700,
+             mb: 2,
+             fontSize: { xs: '2rem', md: '2.5rem', lg: '3.5rem' },
+             color: 'text.primary',
+             }}
+            >
+            Featured Jobs
+          </Typography>
 
     <Typography
       sx={{
@@ -47,7 +46,7 @@ const FeaturesSection: React.FC = () => {
 
         <Grid container spacing={4 }>
           {FEATURES.map((feature) => (
-            <Grid size={{ xs: 12, md: 6 }} key={feature.id}>
+            <Grid item xs={12} md={6} key={feature.id}>
               <FeatureCard
                 // icon={feature.icon}
                 title={feature.title}
@@ -69,10 +68,7 @@ const FeaturesSection: React.FC = () => {
 
       {/* WHY KOVON SECTION */}
 <Box
-  sx={{
-    mt: 10,
-    textAlign: 'center',
-  }}
+  sx={{ mt: 10, textAlign: 'center' }}
 >
   <Box sx={{ mb: 8 }}>
     <Typography
